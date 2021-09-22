@@ -6,7 +6,6 @@ bs - broadcast server, ap - application process
 
 The array, group_members contains three values (additional servers can be added based on the requirement) and the configuration of broadcast servers and application process is shown in config.png file.
 
-![plot](./config.png )
 
 1. bs1, bs2, bs3 listen for incoming connections
 2. bs1 connects to bs2 and bs3; bs2 connects to bs3 and bs1; bs3 connects to bs1 and bs2;
